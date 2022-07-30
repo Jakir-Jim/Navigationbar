@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px or 1.7em;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* This is header */
+.header{
+    width: 100%;
+    height: 120px;
+    background:#596275;
+    float: left;
+    
+}
+.box-1{
+    width: 40%;
+    float: left;
+
+}
+.box-1 h1{
+    display: inline-block;
+    font-size:50px;
+    font-weight: 700px;
+    font-family:  'Black Ops One', cursive;
+    margin: 15px 0 15px 45px ;
+}
+.box-1 h1::first-letter{color: #e15f41;}
+.box-1 h1 span{
+    color:#e15f41;
+}
+
+.box-1 h3{
+    display: inline-block;
+    font-size: 20px;
+}
+.box-1 h3::first-line{color: tomato;}
+.box-2{
+    width: 60%;
+    float: right;
+
+
+}
+.nav{
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+.nav li a{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600px;
+    margin: 0 20px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: all 1s ease;
+
+}
+.nav li a:hover,
+.nav li a.active{
+    background: #55E6C1;
+    color: #01a3a4;
+}
+
+
+.banner{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color:firebrick;
+}
+
+.about{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: #55efc4;
+    padding: 75px 0;
+}
+.box1{
+    width: 50%;
+    float: left;
+    height: 400px;
+    margin: 0px 15px ;
+    padding: 75px 0;
+}
+.box1 h2{
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px 0 0;
+    
+}
+
+    
+.box1 p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.box1 p span{
+    color: red;
+    font-weight: 700px ;
+    font-weight: bold ;
+
+}
+.box2{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin: 0px 15px ;
+    
+
+   
+    
+}
+.box2 img{
+    width: 100%;
+    height: 95%;
+    border: 2px solid gray;
+    box-shadow: -5px 5px 5px #00b894 ;
+    border-radius: 100%;
+    
+   
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: #34495e;
+}
+
